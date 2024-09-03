@@ -1,0 +1,34 @@
+.actionsside-menus > ul.actionsside-nav > li > a > span.unreads {
+    color: white;
+    background-color: rgb(209, 41, 41);
+    padding: 5px;
+    margin: 2px 3px;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    display: inline-block;
+}
+.actionsside-menus > ul.actionsside-nav > li > a > span.unreads > p {
+    font-size: 12px;
+    text-align: center;
+    margin: -4px 3px;
+    position: absolute;
+    color: #FDFDFD;
+}
+
+.actionsside-menus > ul.actionsside-nav > li > a > span.not-unreads {
+    color: white;
+    background-color: #dbdbdb;
+    padding: 5px;
+    margin: 2px 3px;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    display: inline-block;
+}
+.actionsside-menus > ul.actionsside-nav > li > a > span.not-unreads > p {
+    font-size: 12px;
+    text-align: center;
+    margin: -4px 2px;
+    position: absolute;
+}

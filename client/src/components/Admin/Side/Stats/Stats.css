@@ -1,0 +1,43 @@
+section.counts .total-counts {
+    color: rgb(105, 45, 218);
+}
+section.counts .yesterday-counts {
+    color: rgb(250, 157, 18);
+}
+section.counts .today-counts {
+    color: rgb(29, 231, 22);
+}
+section.counts .today-counts span{
+    color: rgb(29, 231, 22);
+    background-color: rgb(51, 230, 140);
+}
+section.counts .yesterday-counts span{
+    color: #E80A0E;
+    background-color: rgb(250, 157, 18);
+}
+section.counts .total-counts span{
+    color: rgb(50, 46, 255);
+    background-color: rgb(105, 45, 218);
+}
+section.counts .today-counts span, section.counts .yesterday-counts span, section.counts .total-counts span {
+    color: white;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+
+section.counts > ul > li {
+    border: 1px solid #ccc;
+    padding: 10px;
+    display: inline-block;
+    text-align: center;
+    margin: 0 auto;
+}
+.stat-style {
+    background-color: #FDFDFD !important;
+    border: 0 !important;
+}

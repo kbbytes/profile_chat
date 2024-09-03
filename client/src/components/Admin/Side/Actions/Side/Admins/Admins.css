@@ -1,0 +1,19 @@
+tbody.admins-body > tr:hover{
+    cursor: pointer;
+    background-color: rgba(183, 255, 187, 0.849);
+}
+.content button.btn-success {
+    bottom: 0;
+    right: 0;
+    margin: 10px;
+    position: absolute;
+    font-size: 18px;
+}
+
+.content button.btn-danger {
+    bottom: 0;
+    right: 0;
+    margin: 10px 95px;
+    position: absolute;
+    font-size: 18px;
+}

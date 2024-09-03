@@ -1,0 +1,103 @@
+.overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 500ms;
+    visibility: visible;
+    opacity: 100;
+    z-index: 9998;
+  }
+  .overlay:target {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  .popup-edit-avatar {
+    margin: 210px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    width: 40%;
+    position: relative;
+    transition: all 5s ease-in-out;
+    z-index: 9999;
+    max-height: 300px;
+  }
+  
+  .popup-edit-avatar h2 {
+    margin-top: 0;
+    color: #333;
+    font-family: Tahoma, Arial, sans-serif;
+  }
+  .popup-edit-avatar .close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+  }
+  .popup-edit-avatar .close:hover {
+    color: #06D85F;
+  }
+  .popup-edit-avatar .content {
+    max-height: 30%;
+    overflow: auto;
+  }
+  .content {
+    max-height: 70%;
+    width: 100%;
+    height: 700px;
+  }
+  .editor-forms {
+    width: 70%;
+    text-align: left;
+    margin: 0 auto;
+    padding: 10px;
+  }
+  @media screen and (max-width: 700px){
+    .box{
+      width: 70%;
+    }
+    .popup-edit-avatar{
+      width: 70%;
+    }
+  }
+  
+  .visible {
+    visibility: visible;
+  }
+  .invisible {
+    visibility: hidden;
+    display: none;
+  }
+  
+  .form-errors h4 {
+    color: red;
+  }
+  .editor-forms button {
+    margin-top: 10px;
+  }
+  .avatar-form {
+    padding: 10px 0;
+  }
+  .avatar-form div {
+    text-align: center;
+    margin: 0 auto;
+  }
+  .avatar-form .avatar-img {
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .avatar-form .avatar-img img{
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 50%;
+  }

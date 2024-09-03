@@ -1,0 +1,24 @@
+.footer {
+    position: fixed;
+    text-align: center;
+    margin: 0 auto;
+    bottom: 0;
+    width: 100%;
+    background-color: #343a40 !important;
+    z-index: 2;
+}
+.text-center p{
+    color: #FDFDFD;
+    margin: 3px;
+}
+.text-center > p > a {
+    color: rgb(214, 214, 214);
+}
+.text-center > p > a:hover {
+    text-decoration: none;
+}
+html, body { height:100%; margin:0; padding:0; }
+
+.App {
+    height: 100%;
+}

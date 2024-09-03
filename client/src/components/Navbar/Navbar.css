@@ -1,0 +1,11 @@
+ul.navbar-nav {
+    text-align: left !important;
+    margin-left: 0 !important;
+    margin-right: auto !important;
+    width: 300px !important;
+    left: 0 !important;
+}
+
+.navbar-nav {
+    z-index: 9999;
+}

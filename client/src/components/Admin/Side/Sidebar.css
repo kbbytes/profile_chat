@@ -1,0 +1,40 @@
+.sidebar-menus {
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    margin-top: 100px;
+    padding: 10px 10px;
+    width: 200px;
+    height: 230px;
+    border: 2px solid #ccc;
+    margin-left: 10px;
+}
+
+ul.sidebar-nav {
+    list-style: none;
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px 20px;
+}
+ul.sidebar-nav li {
+    border-bottom: 1px solid #000;
+    text-align: center;
+    padding: 5px;
+}
+ul.sidebar-nav li a {
+    color: #4d4d4d;
+    text-decoration: none;
+}
+
+ul.sidebar-nav li a:hover, 
+ul.sidebar-nav li a:visited, 
+ul.sidebar-nav li a:link,
+ul.sidebar-nav li a:active {
+    color: #4d4d4d;
+    text-decoration: none !important;
+}
+
+ul.sidebar-nav li a:hover {
+    color: #3d3d;
+}

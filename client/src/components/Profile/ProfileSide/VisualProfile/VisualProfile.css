@@ -1,0 +1,170 @@
+.copy-btn button {
+    padding: 0;
+    margin: 5px;
+}
+.copy-btn img{
+    width: 25px;
+    height: 25px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.refferal-code a{
+    color: blue;
+    font-size: 12px;
+    float: left;
+    margin: 15px auto;
+}
+
+.refferal-headline {
+    margin: 15px auto;
+}
+
+.copy-btn, .refferal-code {
+    display: block;
+}
+
+.profile {
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.profile h1 {
+    left: 0;
+    display: inline;
+    margin: 20px;
+}
+
+.edit-profile {
+    display: inline-block;
+}
+button.edit-profile-btn {
+    padding: 0;
+    border: none;
+    background: none;
+}
+
+.avatar-profile {
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+    right: 0;
+    position: relative;
+}
+
+.avatar-profile span {
+    cursor: default;
+}
+
+.containers {
+    margin-bottom: 100px;
+}
+
+.prog-share {
+    width: 70px;
+    height: 70px;
+}
+
+.CircularProgressbar .CircularProgressbar-path {
+    stroke: #007bff;
+}
+
+.jumbotron {
+    border-radius: 20px;
+    width: 700px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 70px;
+    font-size: 13px;
+    border: 0.01rem solid #000;
+}
+
+.jumbotron > table > ul {
+    list-style: none;
+}
+.jumbotron > table > ul > li {
+    display: inline-block;
+}
+
+.bg-profile {
+    width: 100%;  
+    min-height: 100vh;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: block;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+
+    background-image: url('/images/novin.jpeg');
+    background-repeat: repeat;
+    background-position: bottom;
+    background-size: cover;
+    position: absolute;
+    z-index: 1;  
+}
+.bg-profile::before {
+    content: "";
+    display: block;
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(255,255,255,0.6);
+}
+table.table-left {
+    left: 0;
+    display: inline-block;
+    text-align: left;
+    width: 40%;
+    margin: 30px;
+}
+table.table-right {
+    right: 0;
+    display: inline-block;
+    text-align: right;
+    width: 40%;
+    margin: 10px;
+}
+
+table.table-left tbody {
+    float: left;
+    width: 40%;
+}
+
+table.table-right tbody {
+    float: right;
+}
+
+table.table-left th, .table-left td {
+    border-top: 0 !important;
+}
+
+table.table-right th, .table-right td {
+    border-top: 0 !important;
+}
+.hr-v {
+    border-left: 0.1rem solid rgb(46, 46, 46);
+    height: 450px;
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+    top: 43%;
+}
+
+button.edit-avatar-btn {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    color: blue;
+    text-align: center;
+    margin: 10px -15px !important;
+  }

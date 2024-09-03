@@ -1,0 +1,30 @@
+.ticket-form {
+    width: 60%;
+}
+
+.ticket-form textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+}
+
+.ticket-form form {
+    margin-left: 20px;
+}
+
+.jumbotron {
+    border-radius: 20px;
+    width: 700px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 70px;
+    font-size: 13px;
+    border: 0.01rem solid #000;
+  }

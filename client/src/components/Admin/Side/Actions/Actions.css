@@ -1,0 +1,39 @@
+.side-menus {
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    margin-top: 310px;
+    padding: 10px 10px;
+    width: 200px;
+    height: 200px;
+    margin-left: 10px;
+}
+
+.side-menus > ul {
+    list-style: none;
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px 20px;
+}
+.side-menus > ul > li {
+    border-bottom: 1px solid #000;
+    text-align: center;
+    padding: 5px;
+}
+.side-menus > ul > li > a {
+    color: #4d4d4d;
+    text-decoration: none;
+}
+
+.side-menus > ul > li > a:hover, 
+.side-menus > ul > li > a:visited, 
+.side-menus > ul > li > a:link,
+.side-menus > ul > li > a:active {
+    color: #4d4d4d;
+    text-decoration: none !important;
+}
+
+.side-menus > ul > li > a:hover {
+    color: #3d3d;
+}

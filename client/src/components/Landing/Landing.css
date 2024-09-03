@@ -1,0 +1,75 @@
+
+.xyz { 
+    background-size: auto; 
+    text-align: center; 
+}
+.xyz button {
+    margin: 0 5px;
+}
+.btn-circle.btn-sm { 
+    width: 100px; 
+    height: 100px; 
+    padding: 6px 0px; 
+    border-radius: 100%; 
+    font-size: 18px; 
+    text-align: center; 
+} 
+.btn-circle.btn-md { 
+    width: 50px; 
+    height: 50px; 
+    padding: 7px 10px; 
+    border-radius: 25px; 
+    font-size: 10px; 
+    text-align: center; 
+} 
+.btn-circle.btn-xl { 
+    width: 70px; 
+    height: 70px; 
+    padding: 10px 16px; 
+    border-radius: 35px; 
+    font-size: 12px; 
+    text-align: center; 
+}
+.jumbotron {
+    padding: 1rem 2rem !important;
+}
+.ads-section {
+    padding: 50px 30px;
+}
+.ads-section ul {
+    list-style: none;
+    columns: 3;
+    -webkit-columns: 3;
+    -moz-columns: 3;
+}
+.ads-section ul li {
+    padding: 10px;
+}
+
+.ads-section > ul > li > a > img {
+    border-radius: 10px;
+}
+
+.welc {
+    border-radius: 0 !important;
+    border: none !important;
+    width: 100% !important;
+}
+
+@media (max-width: 1030px) {
+    .ads-section ul {
+        list-style: none;
+        columns: 2;
+        -webkit-columns: 2;
+        -moz-columns: 2;
+    }
+}
+
+@media (max-width: 948px) {
+    .ads-section ul {
+        list-style: none;
+        columns: 1;
+        -webkit-columns: 1;
+        -moz-columns: 1;    
+    }
+}

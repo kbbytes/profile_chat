@@ -1,0 +1,9 @@
+.action-forms {
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 1;
+    margin-top: 100px;
+    padding: 0 30px;
+    width: 300px;
+}

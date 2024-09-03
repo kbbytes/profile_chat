@@ -1,0 +1,135 @@
+.overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 500ms;
+    visibility: visible;
+    opacity: 100;
+    z-index: 9998;
+}
+.overlay:target {
+    visibility: visible;
+    opacity: 1;
+}
+  
+.popup {
+    margin: 70px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    width: 40%;
+    position: relative;
+    transition: all 5s ease-in-out;
+    z-index: 9999;
+    max-height: 700px;
+}
+  
+.popup h2 {
+    margin-top: 0;
+    color: #333;
+    font-family: Tahoma, Arial, sans-serif;
+}
+.popup .close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+}
+.popup .close:hover {
+    color: #06D85F;
+}
+.popup .content {
+    max-height: 50%;
+    width: 100%;
+    height: 580px;
+    overflow: auto;
+}
+
+@media screen and (max-width: 700px){
+    .box{
+      width: 70%;
+    }
+    .popup{
+      width: 70%;
+    }
+}
+  
+.visible {
+    visibility: visible;
+}
+.invisible {
+    visibility: hidden;
+    display: none;
+}
+.admin-banners-settings {
+    padding: 23px 10px !important;
+}
+.admin-banners-settings > ul {
+    columns: 2 !important;
+    -webkit-columns: 2 !important;
+    -moz-columns: 2 !important;
+}
+.ads-section > ul > li {
+    text-align: center;
+    margin-bottom: 10px;
+}
+.ads-section > ul > li > button {
+    text-align: center;
+    margin: 10px auto;
+}
+
+.content .banner-setting ul {
+    list-style: none;
+}
+
+.content > .banner-setting {
+    height: 600px;
+}
+
+.content > .banner-setting > ul > li {
+    margin: 0 100px;
+    float: right;
+    display: inline;
+    font-size: 12px;
+}
+
+.content > .banner-setting {
+    margin: 20px;
+}
+
+.content > .banner-setting > .form-group > input[type="checkbox"].form-control {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    margin: 5px 10px;
+}
+
+.content > .banner-setting > .form-group > input[type="text"].form-control {
+    width: 320px;
+    height: 50px;
+    display: inline-block;
+    margin: 5px 10px;
+    padding: 20px;
+}
+.content > .banner-setting > .button-save-edit > button[type="submit"] {
+    width: 100px;
+    text-align: center;
+    margin: 0 auto;
+    bottom: 0;
+}
+.content > .banner-setting > .button-save-edit {
+    padding: 10px;
+}
+.banner-enable {
+    color: green;
+}
+.banner-disable {
+    color: red;
+}
