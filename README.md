@@ -1,5 +1,13 @@
 # Profile Chat
+
 این پروژه یک وبسایت چت است که کاربران می‌توانند در آن پروفایل شخصی خود را ایجاد کنند. همچنین یک سیستم مدیریت کاربر برای ادمین‌ها فراهم شده است تا بتوانند کاربران را مدیریت کنند.
+
+# عکس پروفایل
+![Profile](https://github.com/kbbytes/profile_chat/blob/master/profile.jpg)
+
+# عکس چت
+![Chat](https://github.com/kbbytes/profile_chat/blob/master/chat.jpg)
+
 
 # ویژگی‌ها
 ثبت‌نام و ورود کاربران: کاربران می‌توانند در سایت ثبت‌نام کنند و سپس وارد حساب کاربری خود شوند.
@@ -37,12 +45,29 @@ cd profile_chat
    
 ۴. اجرای پروژه
 برای اجرای پروژه در حالت توسعه، از دستور زیر استفاده کنید:
+```
+cd client
+npm start
+```
 
-    npm run dev
-   
+و همچنین در محیط CMD دیگری دستورات زیر را وارد کنید:
+
+```
+cd server
+npm start
+```
+
 یا در صورت استفاده از yarn:
 
-    yarn dev
+```
+cd client
+yarn start
+
+cd server
+yarn start
+```
+
+
 سپس می‌توانید به آدرس http://localhost:3000 مراجعه کنید و سایت را مشاهده کنید.
 
 # ساختار پروژه
